@@ -6,15 +6,17 @@ public class Entry {
     private String username;
     private String password;
     private String url;
+    private String notes;
     private String category;
 
     public Entry() {}
 
-    public Entry(String title, String username, String password, String url, String category) {
+    public Entry(String title, String username, String password, String url, String notes, String category) {
         this.title = title;
         this.username = username;
         this.password = password;
         this.url = url;
+        this.notes = notes;
         this.category = category;
     }
 
@@ -32,6 +34,9 @@ public class Entry {
 
     public String getUrl() { return url; }
     public void setUrl(String url) { this.url = url; }
+
+    public String getNotes() { return notes; }
+    public void setNotes(String notes) { this.notes = notes; }
 
     public String getCategory() { return category; }
     public void setCategory(String category) { this.category = category; }
