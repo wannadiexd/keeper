@@ -1,0 +1,94 @@
+.root {
+    -fx-background-color: #0f0f18;
+    -fx-font-family: "Segoe UI";
+}
+.sidebar {
+    -fx-background-color: #0a0a12;
+    -fx-border-color: #1c1c2e;
+    -fx-border-width: 0 1 0 0;
+}
+.logo {
+    -fx-text-fill: #eeeef5;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+.search-field {
+    -fx-background-color: #141420;
+    -fx-text-fill: #eeeef5;
+    -fx-prompt-text-fill: #555570;
+    -fx-border-color: #1c1c2e;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 6 10;
+}
+.add-btn {
+    -fx-background-color: #1c1c2e;
+    -fx-text-fill: #eeeef5;
+    -fx-border-color: #272740;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-padding: 7 10;
+}
+.add-btn:hover { -fx-background-color: #272740; }
+.entry-list {
+    -fx-background-color: #0f0f18;
+    -fx-border-color: transparent;
+}
+.entry-list .list-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+.entry-list .list-cell:selected {
+    -fx-background-color: #141420;
+    -fx-border-color: #272740;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+.cell-title {
+    -fx-text-fill: #eeeef5;
+    -fx-font-size: 13px;
+    -fx-font-weight: 500;
+}
+.cell-username {
+    -fx-text-fill: #555570;
+    -fx-font-size: 12px;
+}
+.detail-pane {
+    -fx-background-color: #0a0a12;
+    -fx-border-color: #1c1c2e;
+    -fx-border-width: 0 0 0 1;
+}
+.detail-title {
+    -fx-text-fill: #eeeef5;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+.field-label {
+    -fx-text-fill: #555570;
+    -fx-font-size: 11px;
+}
+.field-value {
+    -fx-text-fill: #eeeef5;
+    -fx-font-size: 13px;
+    -fx-background-color: #141420;
+    -fx-padding: 6 10;
+    -fx-background-radius: 6;
+}
+.edit-btn {
+    -fx-background-color: #1c1c2e;
+    -fx-text-fill: #eeeef5;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.edit-btn:hover { -fx-background-color: #272740; }
+.delete-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ff4466;
+    -fx-border-color: #1c1c2e;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.delete-btn:hover { -fx-background-color: #ff44661a; }
